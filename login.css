@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.login-form {
+  width: 100%;
+  padding: 2em;
+  max-width: 15em;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.flex-row {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.lf--label {
+  width: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f6f8;
+  cursor: pointer;
+}
+
+.lf--input {
+  flex: 1; /*tentsuu huwaaj ogj bgaa*/
+  padding: 1em;
+  border: 0;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+.lf--input:focus {
+  outline: none;
+  transition: transform 0.15s ease;
+  transform: scale(1.07);
+}
+
+.lf--submit {
+  display: block;
+  padding: 0.75em;
+  width: 100%;
+  background: linear-gradient(to right, #35c3c1, #00d6b7);
+  border: 0;
+  color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.lf--submit:focus {
+  outline: none;
+  transition: transform 0.15s ease;
+  transform: scale(1.08);
+}
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  width: 333px;
+}
+
+.lf--forgot {
+  margin-top: 1em;
+  color: #00d6b7;
+  font-size: 0.65em;
+  text-align: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .login-form {
+    margin-top: 30%;
+    align-items: center;
+    max-width: 12em;
+  }
+  #op {
+    width: 92%;
+    text-align: center;
+  }
+  .lf--forgot {
+    width: 80%;
+    margin-bottom: 40%;
+  }
+}

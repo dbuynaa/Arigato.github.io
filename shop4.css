@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html,
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: visible;
+}
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #ccc;
+}
+
+#nav-bar div {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#nav-bar .logo {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin: 21px auto;
+  padding-left: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.main-nav li a:hover {
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #d67118;
+}
+#header {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db31794d-28bf-44c7-9f34-3df5e1410a50/db2k6sb-f24b624e-8f17-43cb-ba7b-8e87ae662e3c.png/v1/fill/w_1024,h_483,q_80,strp/anime_clothes_inspiration__not_mine__by_watashiwasenpai_db2k6sb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD00ODMiLCJwYXRoIjoiXC9mXC9kYjMxNzk0ZC0yOGJmLTQ0YzctOWYzNC0zZGY1ZTE0MTBhNTBcL2RiMms2c2ItZjI0YjYyNGUtOGYxNy00M2NiLWJhN2ItOGU4N2FlNjYyZTNjLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Gsdp-x2Ju5GK4Z_OHm0T2Y3sT_QUxe0-wq0imFXF1tk);
+  text-align: center;
+  height: 400px;
+  background-size: cover;
+  padding-top: 13%;
+  background-color: rgb(58, 58, 58);
+  opacity: 0.9;
+}
+#header h1 {
+  color: black;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+#header p {
+  color: black;
+  font-size: 20px;
+}
+
+#header a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+#sidenav {
+  margin-top: 10%;
+  position: absolute;
+}
+
+.topnav {
+  width: auto;
+  height: 45px;
+  display: flex;
+  margin-bottom: 10%;
+}
+.topnav h2 {
+  float: left;
+  margin: auto;
+  margin-right: 7px;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type="text"] {
+  padding: 4px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid rgb(58, 74, 109);
+  outline-color: rgba(58, 74, 109, 0.938);
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 5px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: rgb(58, 74, 109);
+  font-size: 17px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+#sidenav a {
+  text-decoration: none;
+  color: #555;
+}
+
+#sidenav a:link,
+p {
+  margin: 16px 85px;
+  display: block;
+  font: 16px Ariel #000000;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  height: 500px;
+  margin: 60px auto 80px auto;
+}
+.products-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-left: 27vw;
+}
+.container .outer-div {
+  margin: 0 20px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .product-listing {
+  display: inline-block;
+  max-width: 200px;
+  height: auto;
+  margin: 15px 10px;
+}
+
+.product-listing img {
+  width: 200px;
+  height: 250px;
+}
+.product-listing a {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+.product-listing a :hover {
+  text-decoration: none;
+  color: rgba(31, 31, 31, 0.671);
+}
+.product-listing h4 {
+  text-align: center;
+  margin: 2px auto;
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.product-listing h4 span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #555;
+  padding-left: 0;
+}
+.footer-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  margin-top: 100%;
+  padding-top: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 100%;
+}
+
+.footer div {
+  margin: 0 auto;
+}
+
+.footer h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.footer ul {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+.social {
+  float: left;
+}
+
+.social ul li {
+  float: left;
+}
+
+.social ul i {
+  font-size: 15px;
+  color: #555;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.social ul i:hover {
+  color: #5b558b;
+}
+
+.footer-links ul a:hover {
+  color: #5b558b;
+}
+
+.email-signup {
+  padding-bottom: 40px;
+}
+
+.footer-section form {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.section-wrapper {
+  min-width: 224px;
+  overflow: hidden;
+  display: inline-block;
+  padding-top: 10px;
+  float: left;
+}
+
+input[type="email"],
+select,
+textarea {
+  width: 165px;
+  padding: 8px;
+  padding-left: 20px;
+  border: 1px solid #070707;
+  border-radius: 200px 0 0 200px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  resize: vertical;
+  font-size: 10px;
+  float: left;
+}
+
+.footer-section .btn-ghost {
+  width: 165px;
+  padding: 8px;
+  padding-left: 20px;
+  border: 1px solid #020202;
+  border-radius: 0 200px 200px 0;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  resize: vertical;
+  font-size: 10px;
+  float: left;
+}
+
+.footer-section .btn-ghost:hover {
+  color: #fff;
+  border: 2px solid #050505;
+  background-color: #845fb8;
+}
+
+.footer-credit {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-top: 2px solid #030303;
+}
+
+.footer-credit a {
+  color: #000000;
+}
+
+.footer-credit a:hover,
+.footer-credit a:active {
+  color: #aaa1b4;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  h1 {
+    font-size: 35px;
+  }
+  .hero-section,
+  h3 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .clearfix {
+    zoom: 0.91;
+  }
+
+  #nav-bar div {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  #nav-bar .logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+
+  .main-nav li {
+    font-size: 17px;
+  }
+  #header {
+    margin-top: 10%;
+    height: 250px;
+    display: inline-block;
+  }
+  #header h1 {
+    font-size: 20px;
+  }
+
+  #header p {
+    font-size: 15px;
+    display: inline;
+    margin: 0;
+  }
+
+  #header a {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5%;
+  }
+
+  .main {
+    width: 100%;
+  }
+  #sidenav {
+    margin-top: 10%;
+  }
+
+  .topnav {
+    width: auto;
+    height: 45px;
+    display: flex;
+    margin-bottom: 10%;
+  }
+  .topnav h2 {
+    margin-right: 7px;
+    display: none;
+  }
+  .topnav input[type="text"] {
+    padding: 4px;
+    margin-top: 8px;
+    font-size: 15px;
+    position: relative;
+  }
+  .topnav .search-container button {
+    float: right;
+    padding: 5px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+  }
+
+  #sidenav a:link,
+  p {
+    margin: 16px 10px;
+    font: 12px Ariel #000000;
+    color: black;
+    display: none;
+  }
+
+  .products-section .container .outer-div {
+    width: 40%;
+    display: grid;
+    height: 65%;
+    margin: 0;
+    margin-left: 2%;
+    padding-right: 8%;
+  }
+  .products-section {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container .product-listing {
+    display: inline;
+    width: 80%;
+    height: 100%;
+  }
+  .container .product-listing h4 {
+    font-size: 15px;
+  }
+  .footer-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin-top: 4000px;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100%;
+  }
+}
